@@ -33,7 +33,7 @@ section .container{
     border-radius: 12px;
 }
 
-section.dark.container{
+section.dark .container{
     background: #323840;
 }
 
@@ -95,17 +95,18 @@ section.dark .time .time-colon .am_pm{
 .time .time-colon .time-text{
     height: 100px;
     width: 100px;
-    display: fkex;
+    display: flex;
     align-items: center;
-    flex-direction: center;
-    justify-content: center;
-    background: f0d8ff;
+    flex-direction: column;
+    justify-content: center;  
+    background: #e6bfff;
     border-radius: 6px;
-    box-shadow: 0 5px 10px rgba(245, 33, 33, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 section.dark .time .time-colon .time-text{
     background: #24292d; 
+
 }
 
 .time .time-colon .time-text,
